@@ -1,2 +1,4 @@
 /web/assets/** linguist-generated
 /web/** linguist-vendored
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+models/checkpoints/aamXLAnimeMix_v10.safetensors filter=lfs diff=lfs merge=lfs -text
